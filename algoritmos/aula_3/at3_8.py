@@ -3,6 +3,7 @@
 'b) A soma do triplo do primeiro com o terceiro'
 'c) O terceiro elevado ao cubo'
 
+<<<<<<< HEAD
 int1 = int(input("Insira um número inteiro: "))
 int2 = int(input("Insira um número inteiro: "))
 real1 = float(input("Insira um número real: "))
@@ -14,3 +15,6 @@ c = real1 ** 3
 print("O produto do dobro do primeiro com metade do segundo é:", a)
 print("A soma do triplo do primeiro com o terceiro é:", b)
 print("O terceiro elevado ao cubo é:", c)
+=======
+print('teste')
+>>>>>>> 45c96ba048b6ab37c6dbe7152eb93da9389a593a
