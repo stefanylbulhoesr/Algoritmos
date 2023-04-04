@@ -4,6 +4,6 @@ n = int(input("Qual o valor de n? "))
 soma = 0
 for n in range (1, n+1):
     frac = 1 / n
-    print("1 /",n,"(",frac,") =")
+    print("1 /",n,"=",frac, "+")
     soma = frac + soma
-    print(soma, "+")
+print("h = ",soma)
