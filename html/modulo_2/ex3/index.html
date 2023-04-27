@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+        @font-face {
+            font-family: 'roman font';
+            src: url('fonts/roman_font_7.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format:
+            -opetype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat (apple advanced typoghraphy)
+            -svg
+            */
+        }
+        body {
+            font-family: 'amatic sc',arial, helvetica, sans-serif;
+            font-size: 1em; 
+            /*
+            Medidas absolutas
+            cm, mm, in, px *recomendado pela W3C, pt, pc
+            Medidas relativas
+            em *recomendado pela W3C, ex, rem, vw, vh, %
+            *16px geralmente é 1em
+            */
+            font-weight: 700;
+            /*ligther, normal, bold, bolder ou números de 100 a 900 (de 100 em 100)*/
+            font-style: normal;
+            /*normal ou italic*/
+            text-decoration: none;
+            /*underline ou none*/
+
+        }
+        p {
+            font-size: 2em;
+        }
+        h1 {
+            font: italic bolder 3em 'roman font', sans-serif; 
+        }
+        /*shorthand font
+        ordem: font-style -> font-weight -> font-size -> font-family
+        font: italic bolder 3em 'work sans', sans-serif; 
+        */
+        h2 {
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quod perspiciatis minima esse, vero libero deleniti facilis temporibus dicta qui vitae. Corporis provident repellat, obcaecati sequi ipsam veniam vero recusandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit blanditiis, ducimus beatae quod delectus ipsam magni debitis vero nobis ex assumenda nemo obcaecati modi officiis nam doloremque porro neque animi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, aut repellat. Atque, dolorum at quasi, tenetur eius dolores ea quis, distinctio excepturi ex asperiores enim ipsam autem corrupti qui reprehenderit?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores repellat iusto itaque nam quam nemo tempora impedit aut, et nihil dolorem neque obcaecati minima facilis adipisci reprehenderit nisi sequi? Saepe!</p>
+</body>
+</html>
