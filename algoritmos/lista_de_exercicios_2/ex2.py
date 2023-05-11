@@ -2,7 +2,7 @@
 
 lista1 = []
 
-for i in range (1,11):
+for i in range (0,10):
     num = float(input("Insira um valor real: "))
     lista1.append(num)
 lista1.reverse()

@@ -2,7 +2,7 @@
 
 lista1 = []
 
-for i in range (1,6):
+for i in range (0,5):
     num = int(input("Digite um número inteiro: "))
     lista1.append(num)
     
