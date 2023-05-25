@@ -16,3 +16,22 @@ console.log(`o número 1 é ${number1}`)
 console.log(`o número 2 é ${number2}`)
 console.log(`a soma é ${sum(number1, number2)}`)
 
+// arrow function
+
+//const sayMyName = (name) => {
+//    console.log(name)
+//}
+
+//sayMyName('Stefany')
+
+// callback function
+
+function sayMyName (name) {
+    console.log(name)
+}
+
+sayMyName(
+    () => {
+        console.assert.log('estou em uma callback')
+    }
+)
