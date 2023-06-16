@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="Clique Aqui" onclick="abrirAlerta()">
+    <script language="Javascript">
+        function abrirAlerta() {
+            alert("Informação qualquer.")
+        }
+        var n1 = prompt("Digite um valor: ")
+        var n2 = prompt("Digite outro valor: ")
+        var n3 = prompt("Digite outro valor: ")
+
+        var maior = 0
+        if (n1 > n2 && n1 > n3) {
+            maior = n1
+        } 
+        else if (n2 > n1 && n2 > n3) {
+            maior = n2
+        }
+        else if (n3 > n1 && n3 > n2) {
+            maior = n3
+        }
+        alert("O maior número é: " + maior)
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Número 1:
+        <input type="text" id="n1">
+    </p>
+    <p>
+        Número 2:
+        <input type="text" id="n2">
+    </p>
+    <p>
+        Número 3:
+        <input type="text" id="n3">
+    </p>
+    <p>
+        <input type="button" id="botao" value="Calcular!" onclick="calcMedia()">
+    </p>
+    <p>
+        A média é:
+        <spam class="resultado"></spam>
+    </p>
+    <script>
+        
+        function calcMedia() {
+            let n1 = document.querySelector('#n1').value
+            let n2 = document.querySelector('#n2').value
+            let n3 = document.querySelector('#n3').value
+            let res = document.querySelector(".resultado")
+            resultado = (Number(n1) + Number(n2) + Number(n3)) / 3
+            res.innerHTML = resultado
+        }
+    </script>
+</body>
+</html>
