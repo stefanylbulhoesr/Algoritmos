@@ -1,0 +1,1 @@
+'Este algoritmo é o Bubble Sort. Suas principais características são a facilidade de entendimento e o fato de que percorre a lista diversas vezes e, cada vez que percorre, passa o menor valor para a primeira posição, sempre comparando elementos de 2 em 2.'

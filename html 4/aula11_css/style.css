@@ -1,0 +1,24 @@
+H1,H2 { 
+    color:blue;
+    font-style:italic;
+}
+/*elementos da classe aviso tem aparencia especial*/
+.aviso{
+    font-weight: bold;
+    background-color: yellow;
+    margin-left: 1in;
+    margin-right: 2cm;
+    border-color: red;
+    border-width: 8px;
+    border-style: solid;
+}
+/*os tipos H1 e H2 na classe aviso estarao
+centrados */
+.aviso H1, .aviso H2 {
+    text-align: center;
+}
+/*define um elemento especial :ID=“P23*/
+#P23 {
+text-align: center;
+text-transform: uppercase;
+}
