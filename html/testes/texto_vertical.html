@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Texto na Vertical</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Roboto+Slab:wght@900&display=swap');
+    .vendor-old {
+      writing-mode: vertical-rl; /* Define o texto para aparecer na vertical, da direita para a esquerda */
+      text-orientation: sideways; /* Define a orientação do texto */
+      transform: rotate(180deg); /* Rotaciona o texto para exibir com a leitura de baixo pra cima */
+      white-space: nowrap;
+      font-size: 13px; 
+      padding: 5px 1px; 
+      width: -1px; 
+
+      background-color: #ff0d0d93;
+      font-family: 'Inter', sans-serif;
+    }
+    .vendor-new {
+      writing-mode: vertical-rl; /* Define o texto para aparecer na vertical, da direita para a esquerda */
+      text-orientation: sideways; /* Define a orientação do texto */
+      transform: rotate(180deg); /* Rotaciona o texto para exibir com a leitura de baixo pra cima */
+      white-space: nowrap;
+      font-size: 13px;
+      padding: 5px 1px;
+      width: -1px;
+
+      background-color: #2d8e0091;
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="vendor-old">Broker</div>
+  <div class="vendor-new">Warehouse</div>
+</body>
+</html>

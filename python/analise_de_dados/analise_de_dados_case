@@ -1,0 +1,9 @@
+Uma empresa de 800 mil clientes percebeu que da sua base total de clientes, a maioria são clientes inativos, que já cancelaram o serviço. Ela quer conseguir entender os principais motivos desses cancelamentos e quais ações mais eficientes para reduzir esse número.
+
+Por onde começar?
+A primeira coisa é escrever o passo a passo do projeto.
+Passo 1: Importar a base de dados
+Passo 2: Visualizar a base de dados
+Passo 3: Tratamento de erros (resolver os problemas da base de dados)
+Passo 4: Análise inicial dos dados (entender como estão os cancelamentos)
+Passo 5: Análise profunda da base de dados
